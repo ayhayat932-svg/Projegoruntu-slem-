@@ -16,8 +16,26 @@ AirDraw, bilgisayarınızın kamerasını kullanarak sadece el hareketlerinizle 
 
 ## 🎮 Kontroller ve Kullanım
 ## 🖐️ El Jestleri (İki El İçin de Geçerli)
--    Jest                            |   -  Eylem
+-    Jest                            |     Eylem
 * 1 Parmak (İşaret)               |        Çizim yapar (Serbest Çizim modunda).
 * 2 Parmak (İşaret + Orta)        |        Üst şerit üzerinde renk veya silgi seçimi yapar.
 * Başparmak + İşaret Parmağı      |       Şekil modlarında (Daire, Kare vb.) boyut/yer belirler."
 * Açık Avuç (Orta Parmak Kalkık)  |     Silgi modunda daha geniş bir alanı temizlemek için kullanılır.
+
+## ⌨️ Klavye Kısayolları
+- 0 - 4 : Çizim modlarını değiştirir (Serbest, Çizgi, Daire, Dikdörtgen, Üçgen).
+- SPACE : Belirlenen şekli tuvale onaylar (şekil modlarındayken).
+- S : Çizimi drawings/ klasörüne tarih-saat ismiyle kaydeder.
+- Z : Yapılan son işlemi geri alır.
+- C : Tüm ekranı temizler.
+- + / - : Kalem kalınlığını artırır veya azaltır.
+- Q : Uygulamadan çıkış yapar.
+
+## 🚀 Teknik Detaylar
+Bu proje aşağıdaki teknolojileri kullanarak gerçek zamanlı görüntü işleme yapar:
+
+- MediaPipe Hands: El üzerindeki 21 farklı eklem noktasını (landmark) milisaniyeler içinde tespit eder.
+- OpenCV: Kamera görüntüsünü işler, çizim katmanını (canvas) oluşturur ve maskeleme yöntemiyle görüntüyü birleştirir.
+- NumPy: Matris operasyonları ile çizim verilerini yönetir.
+
+  
