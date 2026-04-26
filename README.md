@@ -16,7 +16,7 @@ AirDraw, bilgisayarınızın kamerasını kullanarak sadece el hareketlerinizle 
 
 ## 🎮 Kontroller ve Kullanım
 ## 🖐️ El Jestleri (İki El İçin de Geçerli)
-   Jest                            |    Eylem
+-    Jest                            |   -  Eylem
 * 1 Parmak (İşaret)               |        Çizim yapar (Serbest Çizim modunda).
 * 2 Parmak (İşaret + Orta)        |        Üst şerit üzerinde renk veya silgi seçimi yapar.
 * Başparmak + İşaret Parmağı      |       Şekil modlarında (Daire, Kare vb.) boyut/yer belirler."
